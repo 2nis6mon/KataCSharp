@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kata1
+namespace Kata1.Calculator
 {
     public class StringCalculator
     {

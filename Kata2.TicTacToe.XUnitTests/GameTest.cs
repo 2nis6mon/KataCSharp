@@ -1,9 +1,9 @@
 using Kata2.TicTacToe;
 using Xunit;
 
-namespace Kata2.XUnitTests
+namespace Kata2.TicTacToe.XUnitTests
 {
-    public class TicTacToeTest
+    public class GameTest
     {
         private Game _ticTacToe;
 		

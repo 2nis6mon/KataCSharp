@@ -1,9 +1,9 @@
 using NUnit.Framework;
 using Kata2.TicTacToe;
 
-namespace Kata2.NUnitTests
+namespace Kata2.TicTacToe.NUnitTests
 {
-    public class TicTacToeTest
+    public class GameTest
     { 
         private Game _ticTacToe;
 		
