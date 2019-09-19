@@ -2,7 +2,7 @@
 
 ## Kata 1 : StringCalculator
 
-https://github.com/2nis6mon/KataCSharp/tree/master/Kata1
+https://github.com/2nis6mon/KataCSharp/tree/master/Kata1.Calculator
 
 ## Kata 2 : Tic Tac Toe
 
