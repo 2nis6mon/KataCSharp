@@ -37,5 +37,4 @@ Juste une précision, un produit ne peut jamais voir sa qualité augmenter au-de
 
 # Notes
 
-Ce kata a été à l'origine créé par Terry Hughes et est [disponible sur GitHub dans sa version originale en C#](https://github.com/NotMyself/GildedRose). 
-Nous nous basons sur [la version d'Emily Bache](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+Ce kata a été à l'origine créé par Terry Hughes et est [disponible sur GitHub dans sa version originale en C#](https://github.com/NotMyself/GildedRose).

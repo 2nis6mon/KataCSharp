@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata1.Calculator", "Kata1.Calculator\Kata1.Calculator.csproj", "{C49254FE-443F-46B4-8E78-8E5BA8246C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3.GildedRoseTavern", "Kata3.GildedRoseTavern\Kata3.GildedRoseTavern.csproj", "{1D6E6BC0-24F7-4F04-94CA-D8A53EB8BE7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3.GildedRose", "Kata3.GildedRose\Kata3.GildedRose.csproj", "{1D6E6BC0-24F7-4F04-94CA-D8A53EB8BE7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata2.TicTacToe", "Kata2.TicTacToe\Kata2.TicTacToe.csproj", "{648F1C12-320C-4456-ADC2-87EEC701CEFD}"
 EndProject
