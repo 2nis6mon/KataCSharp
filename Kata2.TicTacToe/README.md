@@ -1,49 +1,25 @@
-# StringCalculator
+# Tic Tac Toe Game
 
 ## Description
 
-L'objectif de l'exercise est d'implementer une calculatrice avec les fonctionnalitées demandées. 
-Cette calculatrice est a implementer dans la méthode add(String numbers) de la classe StringCalculator
+Ce jeu implémente une version simplifiée du morpion.
 
-## Règles
+Les deux méthodes principales permettent à l'utilisateur :
+1. move : choisir le prochain mouvement de l'utilisateur avec la position gagnante ou la première case vide.
+2. winner : teste si un tableau a un gagnant, mais le test est fait seulement sur les lignes.
 
-Avant de commencer :
+## Les évolutions :
 
-* Faire les taches dans l’ordre
-* Faire une tâche à la fois.
-* Assurez-vous que vous testez seulement les entrées valides. Il n'y a pas besoin de tester les cas non valides.
-* Il doit pas avoir des régressions sur les taches précédentes au cours de l’exercice.
+Implémenter les deux prochaines évolutions par ordre.
+1. permettre à la méthode winner de vérifier aussi les colonnes et les diagonales.
+2. Permettre à la méthode move de retourner la position pour bloquer l'adversaire si le joueur n’a pas de position gagnante
 
 
-## Exercice
- 
-* Compléter la méthode add pour accepter 0, 1 ou 2 chiffres et qui retourne leur somme (la chaîne vide retourne 0). Le caractère de séparation est la virgule.
-```
-Exemple : add("")=0, add("1")=1 ou add("1,2")=3
-```
-   
-* Permettre à la méthode add d'accepter plus de deux nombres
-```
-Exemple : add("1,2,3")=6
-```
-   
-* La méthode add peut gérer le retour à la ligne "\n".
-```
-ATTENTION : l'entrée suivante n’est PAS autorisée: "1,\n"
-```
-```
-Exemple : add("1\n2,3")=6
-```
-   
-* Différents séparateurs : la méthode peut accepter un séparateur different de la virgule, le début de la chaîne contiendra une ligne distincte qui ressemble à ceci: "//[séparateur]\[nombre ...]"
-```
-ATTENTION : la première ligne est facultative. tous les scénarios existants doivent encore être pris en charge.
-```
-```
-Exemple : add("//;\n1;2")=3
-```
-       
-* Si la chaine d'entrée contient un numéro négatif, la méthode add lance une exception avec le message suivant "negatives not allowed [numéros négatifs...]"
-```
-Exemple : add("1,-2") : "negatives not allowed -2"
-```
+## Aide
+
+Representation du Board : "012345678"
+
+| 0 | 1 | 2 |
+|---|---|---|
+| 3 | 4 | 5 |
+| 6 | 7 | 8 |
