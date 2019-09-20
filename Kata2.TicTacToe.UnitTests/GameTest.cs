@@ -1,7 +1,7 @@
 using Kata2.TicTacToe;
 using Xunit;
 
-namespace Kata2.TicTacToe.XUnitTests
+namespace Kata2.TicTacToe.UnitTests
 {
     public class GameTest
     {
