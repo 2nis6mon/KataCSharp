@@ -54,7 +54,7 @@ namespace Kata2.TicTacToe
                 return _board[3];
             if (_board[6] != '-' && _board[6] == _board[7]
                                  && _board[7] == _board[8])
-                return _board[0];
+                return _board[6];
 
             return '-';
         }
