@@ -31,7 +31,7 @@ Attendez, ça devient intéressant :
 
 Nous avons récemment fait appel à un nouveau fournisseur d’articles. Cela nécessite une mise à jour de notre système:
 
-- Les objets "Conjured" se dégradent deux fois plus vite en qualité que les objets normaux
+- Les objets "Conjured" se dégradent deux fois plus rapidement en qualité que les objets normaux
 
 Vous pouvez faire les changements que vous voulez à la méthode `updateQuality` et ajouter autant de code que vous voulez, tant que tout fonctionne correctement.
 Cependant, nous devons vous prévenir, ne devez modifier en aucun cas la classe `Item` ou ses propriétés car cette classe appartient au gobelin de l'étage et il rentrera dans une rage instantanée et vous tuera sans délai : il ne croit pas dans le partage du code.
