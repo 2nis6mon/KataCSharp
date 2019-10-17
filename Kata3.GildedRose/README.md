@@ -29,6 +29,10 @@ Attendez, ça devient intéressant :
 - "Sulfuras", étant un objet légendaire, n'a pas de date de péremption et ne perd jamais en qualité (`quality`)
 - "Backstage passes", comme le "Aged Brie", augmente sa qualité (`quality`) plus le temps passe (`sellIn`) ; La qualité augmente de 2 quand il reste 10 jours ou moins et de 3 quand il reste 5 jours ou moins, mais la qualité tombe à 0 après le concert.
 
+Nous avons récemment fait appel à un nouveau fournisseur d’articles. Cela nécessite une mise à jour de notre système:
+
+- Les objets "Conjured" se dégradent deux fois plus vite en qualité que les objets normaux
+
 Vous pouvez faire les changements que vous voulez à la méthode `updateQuality` et ajouter autant de code que vous voulez, tant que tout fonctionne correctement.
 Cependant, nous devons vous prévenir, ne devez modifier en aucun cas la classe `Item` ou ses propriétés car cette classe appartient au gobelin de l'étage et il rentrera dans une rage instantanée et vous tuera sans délai : il ne croit pas dans le partage du code.
 (Vous pouvez ajouter une méthode `updateQuality` et des propriétés statiques dans la classe `Item` si vous voulez, nous vous couvrirons)
